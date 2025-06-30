@@ -5,12 +5,13 @@ soma = 0
 
 for i in range(n):
     lista[i] = float(input("Digite um numero: "))
-    
+
 for i in range(n):
     soma += lista[i]
-    
+
 media = soma / n
 
+print()
 print()
 
 print(f"MEDIA DO VETOR = {media:.3f}")
